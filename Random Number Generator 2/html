@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <script type="module" src="func.js"></script>
+    <title>Disc Game</title>
+</head>
+<body>
+    <div>
+        <h1 style="font-family: initial;">Dice launcher simulator</h1>
+    </div>
+    <br/>
+    <div>
+        <div>Choose dice number</div>
+        <input id="launchNum" type="number" class="label" min="1">
+    </div>
+    <br/>
+    <div>
+        <div>Choose dice type</div>
+        <select id="dice" name="diceTypes" class="label">
+            <option>D4</option>
+            <option>D6</option>
+            <option>D8</option>
+            <option>D10</option>
+            <option>D12</option>
+            <option>D20</option>
+        </select>
+    </div>
+    <br/>
+    <br/>
+    <div>
+        <button id="launch" class="label">Launch!</button>
+    </div>
+    <br/>
+        <div id="result"></div>
+</body>
+</html>
